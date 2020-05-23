@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Uber Eats</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 20px;
+}
+.container {
+  position: relative;
+  width: 60%;
+}
+
+.image {
+  display: block;
+  width: 40%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 230px;
+  right: 0;
+  background-color: lightblue;
+  opacity:90%;
+  overflow: hidden;
+  width: 43%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.container:hover .overlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text {
+  font-family:courier;
+  color:green; 
+  font-size: 24px;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+body{background-image:url("cccc.jpg");
+}
+ul {
+  list-style-type: none;
+  margin: 1;
+  padding: 1;
+  overflow: hidden;
+  background-color:#F6F7BB;
+}
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-weight:bold;
+  text-align: center;
+  font-family:"courier";
+  font-size:19px;
+  padding: 16.5px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: lightgreen;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+#hi {
+  width: 90%;
+  height: 10px;
+  background-color: lightgreen;
+  position: relative;
+  left:60px;
+  animation-name: example;
+  animation-duration: 4s;
+  padding: 7px;
+  border-radius: 3px;
+}	
+@keyframes example {
+  0% {background-color:white; left:95%; top:450px; width:40px; height:100px}
+  25% {background-color:#7EEC62; left:95%; top:0px; width:20px; height:10px}
+  50% {background-color:#7EE03A; left:60px; top:0px; width:90%; height:10px}
+  100% {background-color:lightgreen; left:60px; top:0px; width:90%; height:10px}
+
+  }
+  input[type=text], select {
+  width: 100%;
+  left:10px;
+  padding: 12px 16px;
+  margin: 11px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+#lol1{  font-family:"courier";
+   width: 100%;
+     font-size:19px;
+    font-weight:bold;
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  align:center;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#lol{  font-family:"courier";
+   width: 20%;
+   padding: 2px 5px;
+   background-color: lightgreen;
+  font-size:19px;
+    font-weight:bold;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left:800px;
+  outline-color:lightgreen;
+  outline-width:3px;
+  border-radius: 8px;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+#a{align="right"
+}
+
+.dropdown-content a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-content {
+  display: inline;
+  * {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+
+
+  </style>
+  </head>
+  <body bgcolor="lightgreen">
+<div class="sticky">
+<ul>
+  <img src="Images/eats.png" width="157" height="50" align="left"></li>
+<li style="float:left"><a href="main.html">HOME</a></li>
+	<li class="dropdown" style="float:right">
+  </form>
+	  </div>
+   </li>
+  
+  <li style="float:right"><a href="#about">Log In</a></li>
+</ul>
+  <div id="hi"></div></br></br>
+  </div>
+ <center>
+
+ <a href="NA.htm"><div class="container"><img src="Images/a.jpg" class="image" width="35%" border="7"><div class="overlay"><div class="text"><b>TOAST:$20</b></div></div></div></a><br/><br/>
+ <a href="NA.htm"><div class="container"><img src="Images/b.jpg" class="image" width="35%" border="7"><div class="overlay"><div class="text"><b>GRAVY:$10</b></div></div></div></a><br/><br/>
+ <a href="NA.htm"><div class="container"><img src="Images/c.jpg" class="image" width="35%" border="7"><div class="overlay"><div class="text"><b>BRIYANI:$15</b></div></div></div></a><br/><br/>
+ <a href="NA.htm"><div class="container"><img src="Images/d.jpg" class="image" width="35%" border="7"><div class="overlay"><div class="text"><b>POORI:$7</b></div></div></div></a><br/><br/>
+ <a href="NA.htm"><div class="container"><img src="Images/e.jpg" class="image" width="35%" border="7"><div class="overlay"><div class="text"><b>BBQ:$9</b></div></div></div></a><br/><br/>
+ <a href="NA.htm"><div class="container"><img src="Images/f.jpg" class="image" width="35%" border="7"><div class="overlay"><div class="text"><b>KFC:$18</b></div></div></div></a><br/><br/>
+</center>
+
+  <center> 
+  <h1><b><u><a href="Ubereats.htm"><button id="lol">BACK</button></a></u></b></h1> </center>
+ <br/></br>
+ </body>
